@@ -1,0 +1,12 @@
+    .text {
+        height: 100px;
+        width: 500px;
+    }
+    
+    .text h1,
+    h2,
+    p {
+        font-family: 'Poppins';
+        font-weight: 900;
+        display: flex;
+    }
