@@ -2,18 +2,18 @@
 
 
 
-[name="servicos"] body{
+[name="servicos"]body{
     font-size: 100%;
     background-color: #7C4032;
 }
 
-[name="servicos"] .container1{
+[name="servicos"].container1{
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding-top: 30px;
 }
-[name="servicos"] .titulo{
+[name="servicos"].titulo{
 
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     color: aliceblue;
 }
 
-[name="servicos"] .img{
+[name="servicos"].img{
     display: flex;
     justify-content: center;
     padding-top: 1%;
@@ -32,7 +32,7 @@
     width: 70%; 
 }
 
-[name="servicos"] .botao{
+[name="servicos"].botao{
     display: flex;
     justify-content: center;
     background-color: #F3CE5E;
