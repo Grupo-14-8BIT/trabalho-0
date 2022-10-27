@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap");
 body {
     margin: 0px;
     padding: 0px;
@@ -80,11 +80,7 @@ body {
     justify-content: center;
 }
 
-<<<<<<< HEAD
-[name="servicos"] .service {
-=======
 [name="servicos"] {
->>>>>>> a18862652b1b5c53c06a2aa596df1e9a22b1b3f8
     font-size: 100%;
     background-color: #663128;
 }
@@ -144,4 +140,83 @@ body {
     border-style: solid;
     border-width: 80px 0 0 1365px;
     border-color: transparent transparent transparent #663128;
+}
+
+[name="contato"] .titulo-contato{
+    font-family: 'Poppins';
+	padding-top:28px;
+    vertical-align: center;
+    line-height: 94px;
+    color: #7C4032;
+    font-size: 62px;
+    text-align: center;
+    line-height: 100%;
+    
+}
+
+[name="contato"] .rodape-contato{
+	position:relative;
+    background-color: #FFF;
+}
+[name="contato"] .nomes-campos{
+    font-family: 'Poppins';
+	position:relative;
+	padding-top:50px;
+	margin-top:-43px;
+    background-color: #FFF;
+	width:45%;
+	float:left;
+	padding-bottom:141px;
+}
+[name="contato"] .alinhamento-campos{
+	padding-top:30px;
+}
+[name="contato"] .alinhamento-imagem{
+	margin-right:30px;
+}
+[name="contato"] .formulario{
+	margin-top:-43px;
+    background-color: #FFF;
+	padding-left:15%;
+	margin-bottom:30px;
+	position:relative;
+	width:40%;
+	float:left;
+}
+[name="contato"] .campos{
+	margin-right:-70%;
+}
+
+[name="contato"] .personalizacao-campos{
+    text-align: center;
+    display: flex;
+    width: 30%;
+    height: 54px;
+    background-color: #E5AF99;
+    border-radius: 61px;
+    border-color: #E5AF99;
+    border: 1px solid pink;
+    margin-bottom: 10px;
+    margin-left: 21%;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+
+
+
+[name="contato"] .enviar{
+    border: 3px solid #7C4032;
+    position: relative; 
+    color: #7C4032;
+    font-family:'Poppins',sans-serif;
+    margin-top: 1%;
+    background-color: #ffffff;
+    font-weight:bold;
+    height: 56px;
+    width: 168px;
+    border-radius: 61px;
+    border-color: #7C4032;
+    margin-bottom: 4%;
+    margin-left: 49%;
+    
 }
