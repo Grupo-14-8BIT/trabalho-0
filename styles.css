@@ -19,7 +19,7 @@ body {
 }
 
 [name="home"] .text {
-    height: 200px;
+    height: 100px;
     width: 570px;
     line-height: 30px;
     color: #663128;
@@ -129,7 +129,8 @@ body {
     font-weight: 600;
     color: #7C4032;
     text-decoration: none;
-    margin-left: 3%;
+    padding-left: 800px;
+    bottom: 9999px;
 }
 
 .contorno {
