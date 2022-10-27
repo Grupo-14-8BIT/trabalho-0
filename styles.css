@@ -80,7 +80,11 @@ body {
     justify-content: center;
 }
 
+<<<<<<< HEAD
+[name="servicos"] .service {
+=======
 [name="servicos"] {
+>>>>>>> a18862652b1b5c53c06a2aa596df1e9a22b1b3f8
     font-size: 100%;
     background-color: #663128;
 }
