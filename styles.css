@@ -1,20 +1,17 @@
 @charset "UTF-8";
-
-
-
-[name="servicos"] body{
+[name="servicos"] body {
     font-size: 100%;
     background-color: #7C4032;
 }
 
-[name="servicos"] .container1{
+[name="servicos"] .container1 {
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding-top: 30px;
 }
-[name="servicos"] .titulo{
 
+[name="servicos"] .titulo {
     display: flex;
     justify-content: center;
     padding-top: 1%;
@@ -24,20 +21,20 @@
     color: aliceblue;
 }
 
-[name="servicos"] .img{
+[name="servicos"] .img {
     display: flex;
     justify-content: center;
     padding-top: 1%;
     padding-left: 15%;
-    width: 70%; 
+    width: 70%;
 }
 
-[name="servicos"] .botao{
+[name="servicos"] .botao {
     display: flex;
     justify-content: center;
     background-color: #F3CE5E;
     border: none;
-    color:#7C4032;
+    color: #7C4032;
     padding: 10px 50px 10px 50px;
     font-size: 16px;
     border-radius: 20px 20px 20px 20px;
