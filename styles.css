@@ -19,7 +19,7 @@ body {
 }
 
 [name="home"] .text {
-    height: 200px;
+    height: 100px;
     width: 570px;
     line-height: 30px;
     color: #663128;
@@ -81,7 +81,11 @@ body {
     justify-content: center;
 }
 
+<<<<<<< HEAD
 [name="servicos"] .service {
+=======
+[name="servicos"] {
+>>>>>>> a18862652b1b5c53c06a2aa596df1e9a22b1b3f8
     font-size: 100%;
     background-color: #7C4032;
 }
@@ -108,7 +112,7 @@ body {
     justify-content: center;
     padding-top: 1%;
     padding-left: 15%;
-    width: 70%;
+    width: 80%;
 }
 
 [name="servicos"] .botao {
@@ -129,5 +133,12 @@ body {
     font-weight: 600;
     color: #7C4032;
     text-decoration: none;
-    margin-left: 3%;
+    padding-left: 800px;
+    bottom: 9999px;
+}
+
+.contorno {
+    border-style: solid;
+    border-width: 80px 0 0 1365px;
+    border-color: transparent transparent transparent #663128;
 }
