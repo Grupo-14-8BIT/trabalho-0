@@ -81,7 +81,7 @@ body {
     justify-content: center;
 }
 
-[name="servicos"] body {
+[name="servicos"] {
     font-size: 100%;
     background-color: #7C4032;
 }
@@ -108,7 +108,7 @@ body {
     justify-content: center;
     padding-top: 1%;
     padding-left: 15%;
-    width: 70%;
+    width: 80%;
 }
 
 [name="servicos"] .botao {
