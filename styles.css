@@ -17,8 +17,8 @@
     flex-direction: row;
     padding-top: 30px;
 }
-
 [name="servicos"] .titulo{
+
     display: flex;
     justify-content: center;
     padding-top: 1%;
