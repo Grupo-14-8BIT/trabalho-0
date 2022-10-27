@@ -123,3 +123,11 @@ body {
     font-family: 'Poppins';
     font-weight: 700;
 }
+
+.about {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #7C4032;
+    text-decoration: none;
+    margin-left: 3%;
+}
