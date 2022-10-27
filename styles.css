@@ -13,7 +13,7 @@ body {
     background-image: url(back.png);
     left: 0px;
     right: 0px;
-    padding-top: 100px;
+    padding-top: 1px;
 }
 
 [name="home"] .text {
@@ -21,7 +21,7 @@ body {
     width: 570px;
     line-height: 30px;
     color: #663128;
-    margin-left: 352px;
+    margin-left: 90px;
     margin-right: 995px;
     margin-bottom: 404px;
     margin-top: 321px;
@@ -52,7 +52,7 @@ body {
 
 [name="home"] .ursos {
     position: absolute;
-    left: 1022px;
+    left: 750px;
     right: 351px;
     top: 202px;
     bottom: 216px;
@@ -63,8 +63,8 @@ body {
     position: absolute;
     width: 210px;
     height: 66px;
-    left: 352px;
-    top: 700px;
+    left: 90px;
+    top: 600px;
     background: #F3CE5E;
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border-radius: 57px;
@@ -80,11 +80,7 @@ body {
     justify-content: center;
 }
 
-<<<<<<< HEAD
-[name="servicos"] .service {
-=======
 [name="servicos"] {
->>>>>>> a18862652b1b5c53c06a2aa596df1e9a22b1b3f8
     font-size: 100%;
     background-color: #663128;
 }
@@ -134,7 +130,7 @@ body {
     font-weight: 600;
     color: #7C4032;
     text-decoration: none;
-    padding-left: 700px;
+    padding-left: 400px;
     display: flex;
     bottom: 195px;
 }
