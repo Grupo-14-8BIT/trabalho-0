@@ -220,3 +220,87 @@ body {
     margin-left: 49%;
     
 }
+
+
+
+
+[name="testemunhos"] .bachground{
+    
+    background-image: url(background.png);
+}
+
+[name="testemunhos"] h1{
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    color: rgb(112, 19, 19);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+[name="testemunhos"] .move-me{
+    width:512px;
+    height:192px;
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: firebrick;
+    position:absolute;
+    top: 200px;
+    left: 100px;
+}
+[name="testemunhos"] .move-me1{
+    width:512px;
+    height:192px;
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: firebrick;
+    border-radius: 30px;
+    position:absolute;
+    top: 200px;
+    right: 100px;
+}
+[name="testemunhos"] .move-me2{
+    width:512px;
+    height:192px;
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: firebrick;
+    border-radius: 30px;
+    position:absolute;
+    top: 430px;
+    left: 100px;
+}
+[name="testemunhos"] .move-me3{
+    width:512px;
+    height:192px;
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: firebrick;
+    border-radius: 30px;
+    position:absolute;
+    top: 430px;
+    right: 100px;
+}
+[name="testemunhos"] h4{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    color:rgba(122, 27, 27, 0.977);
+}
+[name="testemunhos"] p{
+    padding: 10px;
+}
+[name="testemunhos"] .star{
+    color: rgb(217, 186, 12);
+    padding-left: 20px;
+}
+
+
+
