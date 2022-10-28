@@ -142,52 +142,56 @@ body {
     border-color: transparent transparent transparent #663128;
 }
 
-[name="contato"] .titulo-contato{
+[name="contato"] .titulo-contato {
     font-family: 'Poppins';
-	padding-top:28px;
+    padding-top: 28px;
     vertical-align: center;
     line-height: 94px;
     color: #7C4032;
     font-size: 62px;
     text-align: center;
     line-height: 100%;
-    
 }
 
-[name="contato"] .rodape-contato{
-	position:relative;
+[name="contato"] .rodape-contato {
+    position: relative;
     background-color: #FFF;
 }
-[name="contato"] .nomes-campos{
+
+[name="contato"] .nomes-campos {
     font-family: 'Poppins';
-	position:relative;
-	padding-top:50px;
-	margin-top:-43px;
+    position: relative;
+    padding-top: 50px;
+    margin-top: -43px;
     background-color: #FFF;
-	width:45%;
-	float:left;
-	padding-bottom:141px;
-}
-[name="contato"] .alinhamento-campos{
-	padding-top:30px;
-}
-[name="contato"] .alinhamento-imagem{
-	margin-right:30px;
-}
-[name="contato"] .formulario{
-	margin-top:-43px;
-    background-color: #FFF;
-	padding-left:15%;
-	margin-bottom:30px;
-	position:relative;
-	width:40%;
-	float:left;
-}
-[name="contato"] .campos{
-	margin-right:-70%;
+    width: 45%;
+    float: left;
+    padding-bottom: 141px;
 }
 
-[name="contato"] .personalizacao-campos{
+[name="contato"] .alinhamento-campos {
+    padding-top: 30px;
+}
+
+[name="contato"] .alinhamento-imagem {
+    margin-right: 30px;
+}
+
+[name="contato"] .formulario {
+    margin-top: -43px;
+    background-color: #FFF;
+    padding-left: 15%;
+    margin-bottom: 30px;
+    position: relative;
+    width: 40%;
+    float: left;
+}
+
+[name="contato"] .campos {
+    margin-right: -70%;
+}
+
+[name="contato"] .personalizacao-campos {
     text-align: center;
     display: flex;
     width: 30%;
@@ -198,38 +202,31 @@ body {
     border: 1px solid pink;
     margin-bottom: 10px;
     margin-left: 21%;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-top: 30px;
 }
 
-
-
-[name="contato"] .enviar{
+[name="contato"] .enviar {
     border: 3px solid #7C4032;
-    position: relative; 
+    position: relative;
     color: #7C4032;
-    font-family:'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 1%;
     background-color: #ffffff;
-    font-weight:bold;
+    font-weight: bold;
     height: 56px;
     width: 168px;
     border-radius: 61px;
     border-color: #7C4032;
     margin-bottom: 4%;
     margin-left: 49%;
-    
 }
 
-
-
-
-[name="testemunhos"] .bachground{
-    
+[name="testemunhos"] .bachground {
     background-image: url(background.png);
 }
 
-[name="testemunhos"] h1{
+[name="testemunhos"] h1 {
     height: 150vh;
     display: flex;
     justify-content: center;
@@ -237,70 +234,97 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
 }
-[name="testemunhos"] .move-me{
-    width:512px;
-    height:192px;
+
+[name="testemunhos"] .move-me {
+    width: 512px;
+    height: 192px;
     background-color: rgb(255, 255, 255);
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
     border-color: firebrick;
-    position:absolute;
-    top: 200px;
+    position: absolute;
+    top: 1760px;
     left: 100px;
 }
-[name="testemunhos"] .move-me1{
-    width:512px;
-    height:192px;
+
+[name="testemunhos"] .move-me1 {
+    width: 512px;
+    height: 192px;
     background-color: rgb(255, 255, 255);
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
     border-color: firebrick;
     border-radius: 30px;
-    position:absolute;
-    top: 200px;
+    position: absolute;
+    top: 1760px;
     right: 100px;
 }
-[name="testemunhos"] .move-me2{
-    width:512px;
-    height:192px;
+
+[name="testemunhos"] .move-me2 {
+    width: 512px;
+    height: 192px;
     background-color: rgb(255, 255, 255);
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
     border-color: firebrick;
     border-radius: 30px;
-    position:absolute;
-    top: 430px;
+    position: absolute;
+    top: 1960px;
     left: 100px;
 }
-[name="testemunhos"] .move-me3{
-    width:512px;
-    height:192px;
+
+[name="testemunhos"] .move-me3 {
+    width: 512px;
+    height: 192px;
     background-color: rgb(255, 255, 255);
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
     border-color: firebrick;
     border-radius: 30px;
-    position:absolute;
-    top: 430px;
+    position: absolute;
+    top: 1960px;
     right: 100px;
 }
-[name="testemunhos"] h4{
+
+[name="testemunhos"] h4 {
     padding-top: 5px;
     padding-left: 20px;
     font-family: 'Oswald', sans-serif;
-    color:rgba(122, 27, 27, 0.977);
+    color: rgba(122, 27, 27, 0.977);
 }
-[name="testemunhos"] p{
+
+[name="testemunhos"] p {
     padding: 10px;
 }
-[name="testemunhos"] .star{
+
+[name="testemunhos"] .star {
     color: rgb(217, 186, 12);
     padding-left: 20px;
 }
 
+[name="testemunhos"] {
+    height: 110vh;
+    background-image: url(back.png);
+    background-color: #FEF4DE;
+    padding-top: 1px;
+}
 
-
+[name="testemunhos"] .button {
+    font-size: 20px;
+    height: 66px;
+    width: 210px;
+    background-color: rgb(229, 172, 66);
+    color: brown;
+    border-width: 0px;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: end;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: 2250px;
+    right: 525px;
+}
