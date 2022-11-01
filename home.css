@@ -2,7 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Oswald:wght@500&family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
+body{
+    font-size: 100%;
+    background-image: url(backgrounds.jpg);
+}
+
+header{
+    background-color: rgba(203, 185, 185, 0.523);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 30px;
+}
+
+.cabecalho{
+    font-family:'Montserrat';
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 100px;
+    color: aliceblue;
+margin-left: 20%;
+}
+
+.logo{
+    font-family:'Montserrat';
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(0, 95, 9), rgb(34, 203, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icones{
+    margin-left: 34%;
+    display: flex;
+}
+.icones img{
+    margin-left: 55%;
+    width:20px ;
+}
 
 [id=eventos] {
     margin-top: 0vh;
