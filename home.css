@@ -6,28 +6,30 @@
     margin: 0%;
     padding: 0%;
 }
-
+/* ........................HOME................................. */
+/* ........................HEADER...............................*/
 body{
     font-size: 100%;
-    background-image: url(backgrounds.jpg);
+    background-image: url(background-repeat.png);
+
 }
 
 header{
     background-color: rgba(203, 185, 185, 0.523);
     display: flex;
     align-items: center;
-    justify-content:center;
-    padding-top: 30px;
+    justify-content:space-around;
+    gap: 5px;
+    padding-top: 10px;
 }
 
 .cabecalho{
     font-family:'Montserrat';
     display: flex;
-    align-items: center;
     justify-content:center;
     gap: 100px;
     color: aliceblue;
-margin-left: 20%;
+    margin-left: 10%;
 }
 
 .logo{
@@ -39,45 +41,50 @@ margin-left: 20%;
 }
 
 .icones{
-    margin-left: 34%;
+    margin-left: 25%;
     display: flex;
 }
 .icones img{
-    margin-left: 55%;
+    margin-left: 40%;
     width:20px ;
 }
-
-[id=eventos] {
-    margin-top: 0vh;
+/* .......................MAIN............................. */
+.eventos {
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
-[id=eventos] img {
-    margin-top: 5vh;
+.eventos img {
     max-width: 50vh;
+    padding-top: 5vh;
+    
 }
 
-.home h1 {
+.textohome {
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
-    margin-top: 14vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
 }
 
-[id=courses] {
-    margin: 0px;
-    padding-top: 30vh;
-    flex-grow: 3;
+.courses {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     display: flex;
-    width: 180vh;
     height: 20vh;
     justify-content: center;
 }
 
-[id=courses] h1 {
+.courses img {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+}
+
+.courses h1 {
     font-family: 'Kanit', sans-serif;
-    bottom: 25vh;
+    bottom: 20vh;
     position: absolute;
     color: aliceblue;
 }
