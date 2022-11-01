@@ -12,21 +12,36 @@ body{
     background-image: url(Backgrounds.png);
 }
 
-.cabecalho{
+header{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content:center;
+    padding-top: 30px;
+}
+
+.cabecalho{
+    font-family:'Montserrat';
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 100px;
     color: aliceblue;
-    font-family:"Game Of Squids";
+margin-left: 20%;
 }
 
 .logo{
-    margin-left: -10%;
-    font-size: 25px;
+    font-family:'Montserrat';
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(0, 95, 9), rgb(34, 203, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.homepage{
-
+.icones{
+    margin-left: 34%;
+    display: flex;
+}
+.icones img{
+    margin-left: 55%;
+    width:20px ;
 }
